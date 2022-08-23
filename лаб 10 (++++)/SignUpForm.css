@@ -1,0 +1,93 @@
+/* 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   */
+
+* {
+  font-size: large;
+}
+
+form {
+  margin: 10px;
+}
+
+input {
+  display: block;
+  margin: 5px 0px 5px 0px;
+}
+
+.rad {
+  display: flex;
+}
+
+.rad input {
+  margin: 0px 15px 0px 2px;
+} 
+
+.password{
+  width: 220px;
+  height: 10px;
+  margin: 0px;
+  border: 1px solid #000;
+}
+
+.password1 {
+  background: rgb(142, 213, 113);
+  height: 100%;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  padding: 4px; 
+  border: 1px solid black;
+}
+
+.phone-input input {
+  width: 170px;
+  outline: none;
+  border: none;
+}
+
+li {
+  padding-top: 3px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li:hover {
+  background: rgb(234, 247, 117);
+}
+
+ul {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid;
+  width: 250px;
+}
+
+li img {
+  margin: 0px 3px;
+}
+td,th,table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+.name{
+  width:150px;}
+.small{
+  width:75px;}
+
+.list-right {
+  display: flex;
+  color: rgb(148, 148, 148);
+}

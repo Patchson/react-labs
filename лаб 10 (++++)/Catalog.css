@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sorts button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 3px;
+    transition: all 0.3s
+}
+
+.sorts button:hover {
+    cursor: pointer;
+    background-color: #37747c
+}
+
+.good {
+    display: flex;
+    border: 1px solid black;
+    margin: 10px;
+    width: 30%;
+    padding: 10px;
+}
+
+.good img {
+    height: 150px;
+    margin-right: 10px;
+}
+
+.good_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.good_discount {
+    display: flex;
+    text-align: center;
+}
+
+.good_discount h3 {
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 58, 58);
+}
+
+.good_price {
+    display: flex;
+}
+
+.good_price :nth-child(odd) {
+    color: rgb(83, 83, 83);
+    text-decoration: line-through;
+}
+
+h1, h2, h3, h4 {
+    margin: 0px 5px 5px 0px;
+}

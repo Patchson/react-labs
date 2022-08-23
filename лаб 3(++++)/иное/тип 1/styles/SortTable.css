@@ -1,0 +1,27 @@
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+table{
+    border: 1px solid black;
+}
+
+td {
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.decr {
+    float: left;
+}
+
+.incr {
+    float: right;
+}

@@ -1,0 +1,14 @@
+select {
+    border: hidden;
+    
+}
+
+input {
+    border: hidden;
+}
+
+.inputPlace {
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-right: 1620px;
+}

@@ -1,0 +1,56 @@
+* {
+  font-size: large;
+}
+
+.phone-input {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+img {
+  height: 10px;
+  width: 20px;
+  margin-bottom: -3px
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+li {
+  padding-top: 3px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+li:hover {
+  background: rgb(234, 247, 117);
+}
+input[type="radio"] {
+  display: none;
+}
+ul {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid;
+  width: 250px;
+}
+
+li img {
+  margin: 0px 3px;
+}
+td,th,table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+.name{
+  width:150px;}
+.small{
+  width:75px;}
+
+.list-right {
+  color: rgb(148, 148, 148);
+}

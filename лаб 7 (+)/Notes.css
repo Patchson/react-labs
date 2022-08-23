@@ -1,0 +1,29 @@
+.note {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.form {
+    display: block;
+    padding-top: 10px;
+}
+
+.notes {
+    display: flex;
+}
+
+input, textarea, button {
+    margin: auto;
+    display: block;
+}
+
+.note_butt {
+    display: flex;
+    padding-top: 10px;
+}
+
+.note_butt button {
+    margin: 10px;
+}   

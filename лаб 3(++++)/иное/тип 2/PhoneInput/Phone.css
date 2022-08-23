@@ -1,0 +1,23 @@
+table {
+	width: 100%;
+
+	border: 2px solid black;
+	 text-align: center;
+	
+	
+	
+    
+  
+}
+table th {
+
+	background: #acbb68;
+	text-align: left;
+	font-size: 25px;
+	border-bottom: 3px solid #ddd0c5;
+}
+.country {
+	font-size: 45px;
+	text-align: center;
+}
+
